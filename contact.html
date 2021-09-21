@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    
+  <section class="111">
+      <nav>
+          <a href="index.html"></a>
+          <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" class="fa1" onclick="hidemenu()"></i>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+          <img src="images/moon1-removebg-preview.png" onclick="my2()" class="hide">
+          <i class="fa fa-bars" id="fa2" onclick="showmenu()"></i> 
+          
+      </nav>
+      
+ <!--Course--> 
+
+<!---contact-->
+<section class="contact">
+  <div class="row">
+    <div class="content">
+
+           <h1 class="heading"><span> Contact</span> info</h1>
+
+      <div class="info">
+
+          
+           <h1><i class="fa fa-home"></i>Bangalore,Karnataka</h1>
+         
+
+        <h1><i class="fa fa-phone"></i>+123-456-789</h1>
+      
+ 
+  
+     
+     
+       <h1><i class="fa fa-envelope"></i>anwesha3@gmail.com</h1>
+    
+
+</div>
+</div>
+<form action="">
+  <input type="text" placeholder="Name" class="box">
+  <input type="text" placeholder="Email" class="box">
+  <input type="text" placeholder="Project" class="box">
+  <textarea rows="10" cols="30" placeholder="Message" class="box message"></textarea>
+  <button type="submit" class="btn"> Send <i class="fas fa-paper-plane"></i></button>
+</form>
+
+</div>
+
+
+</section>
+<!--icons-->
+<!--<section class="io">
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+  </div>
+</section>-->
+
+
+<script>
+ // var a=alert("Thank you for exploring Anwesha's website :)");
+
+  var navlinks = document.getElementById("navlinks");
+ function showmenu(){
+  navlinks.style.right="0";
+ }
+ function hidemenu(){
+  navlinks.style.right="-200px";
+ }
+ var moon2 = document.body;
+function my2(){
+   moon2.classList.toggle('light-mode1');
+}
+
+
+</script>
+
+
+
+
+</body>
+</html>

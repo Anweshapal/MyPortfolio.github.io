@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    
+  <section class="111">
+      <nav>
+          <a href="index.html"></a>
+          <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" class="fa1"  onclick="hidemenu()"></i>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+              <img src="images/moon1-removebg-preview.png" onclick="my()" id="moon">
+          </div>
+          <img src="images/moon1-removebg-preview.png" onclick="my2()" class="hide">
+
+
+          <i class="fa fa-bars" id="fa2" onclick="showmenu()"></i>
+          
+   
+        </nav>
+      <div class="header">
+
+         
+        <img src="images/B612_20210918_180654_780.jpg">
+        <h1 class="h1">Hi there!</h1>
+        <h2 class="h2">i'm<span> Anwesha Pal</span></h2>
+        <p>Front-end Devloper</p>
+      </div>
+  </section>
+  <section class="giphy" id="giphy">
+    <img src="images/programming_01.gif">
+    
+   
+    </section>
+
+
+ <!--Course--> 
+<section class="course" id="course">
+  <h1 class="heading">My<span> Skills</span></h1>
+  
+  
+
+
+
+
+  <div class="box-container">
+    <div class="box">
+      <i class="fas fa-gem"></i>
+      <h3>Website Design</h3>
+      <p>Job prospects for web developers should continue to be favorable through to 2024 according to the Bureau of Labor Statistics. There were 148,500 positions in 2014. This figure should grow by 27% by 2024 to about 188,000 positions. This growth rate is higher than other computer occupations, which is 12%.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-gem"></i>
+      <h3>Blockchain</h3>
+      <p>With the number of job openings exceeding qualified developers, blockchain development is one of the fastest rising fields in the labor market. A successful career in blockchain engineering offers multiple job paths and an opportunity to work on innovative projects using cutting-edge technology.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-gem"></i>
+      <h3>Competitive Programming</h3>
+      <p>Coding is arguably one of the most important skills for current as well as future generations to learn. For young learners, programming helps to gain problem-solving skills i.e. to solve a problem in a logical as well as creative way.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-gem"></i>
+      <h3>Graphic Design,Video Editing,UX/UI</h3>
+      <p>Graphics is a method of communication that we use to portray our ideas to our audience, and the better we can communicate the more information that they can retain. ... So the graphics of the sections and perspectives really helped communicate what the plan view was trying to convey.</p>
+    </div>
+  </div>
+</section>
+<!---contact-->
+<section class="contact">
+  <div class="row">
+    <div class="content">
+
+           <h1 class="heading"><span> Contact</span> info</h1>
+
+      <div class="info">
+
+          
+           <h1><i class="fa fa-home"></i>Bangalore,Karnataka</h1>
+         
+
+        <h1><i class="fa fa-phone"></i>+123-456-789</h1>
+      
+ 
+  
+     
+     
+       <h1><i class="fa fa-envelope"></i>anwesha3@gmail.com</h1>
+    
+
+</div>
+</div>
+<form action="">
+  <input type="text" placeholder="Name" class="box">
+  <input type="text" placeholder="Email" class="box">
+  <input type="text" placeholder="Project" class="box">
+  <textarea rows="10" cols="30" placeholder="Message" class="box message"></textarea>
+  <button type="submit" class="btn">Send<i class="fas fa-paper-plane"></i></button>
+</form>
+
+</div>
+
+
+</section>
+<!--icons-->
+<!--<section class="io">
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+  </div>
+</section>-->
+
+
+<script>
+ var a=alert("Heyyy Glad to see you here :)");
+
+ var moon1 = document.body;
+function my(){
+   moon1.classList.toggle('light-mode');
+}
+
+var moon2 = document.body;
+function my2(){
+   moon2.classList.toggle('light-mode1');
+}
+
+
+
+  var navlinks = document.getElementById("navlinks");
+ function showmenu(){
+  navlinks.style.right="0";
+ }
+ function hidemenu(){
+  navlinks.style.right="-200px";
+ }
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
